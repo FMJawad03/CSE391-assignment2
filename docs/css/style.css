@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #222;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #243447;
+    color: white;
+    text-align: center;
+    padding: 24px 15px;
+}
+
+header h1 {
+    margin: 0 0 8px;
+}
+
+header p {
+    margin: 0;
+}
+
+nav {
+    background: #17212b;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 13px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #45627d;
+}
+
+main {
+    width: min(900px, 92%);
+    margin: 30px auto;
+    flex: 1;
+}
+
+.center-main {
+    text-align: center;
+}
+
+.home-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 16px;
+    margin-top: 25px;
+}
+
+.app-card {
+    display: block;
+    background: white;
+    border: 1px solid #d5dce2;
+    border-radius: 10px;
+    padding: 20px;
+    color: #222;
+    text-decoration: none;
+    box-shadow: 0 2px 6px #0000000d;
+}
+
+.app-card:hover {
+    border-color: #4b86b4;
+    transform: translateY(-2px);
+}
+
+.app-card h3 {
+    margin-top: 0;
+    color: #245b84;
+}
+
+.fortune-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+
+.fortune-box {
+    background: #ffe66d;
+    color: #d62727;
+    border: 3px solid #56833a;
+    padding: 18px;
+    min-height: 58px;
+    max-width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.fortune-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+button {
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 14px;
+    background: #2878b5;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #1c5b8a;
+}
+
+.fortune-buttons button {
+    width: 40px;
+    height: 40px;
+    min-width: 0;
+}
+
+#redButton {
+    background-color: #c0392b;
+}
+
+#redButton:hover {
+    background-color: #922b21;
+}
+
+#purpleButton {
+    background-color: #6c3483;
+}
+
+#purpleButton:hover {
+    background-color: #512e5f;
+}
+
+#blueButton {
+    background-color: #2874a6;
+}
+
+#blueButton:hover {
+    background-color: #1b4f72;
+}
+
+#greenButton {
+    background-color: #14a550;
+}
+
+#greenButton:hover {
+    background-color: #196f3d;
+}
+
+.time-display {
+    font-size: 42px;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#stopButton {
+    background: #b83b3b;
+}
+
+#stopButton:hover {
+    background: #922d2d;
+}
+
+#resetButton {
+    background: #555f6b;
+}
+
+#resetButton:hover {
+    background: #3e4650;
+}
+
+.task-form {
+    display: flex;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+.task-form input {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #b8c2cc;
+    border-radius: 5px;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    padding: 12px;
+    border: 1px solid #d5dce2;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+.task-text {
+    flex: 1;
+    overflow-wrap: anywhere;
+}
+
+.task-item.completed .task-text {
+    text-decoration: line-through;
+    color: #777;
+}
+
+.delete-button {
+    background: #b83b3b;
+}
+
+.delete-button:hover {
+    background: #922d2d;
+}
+
+#emptyMessage {
+    color: #66717c;
+}
+
+footer {
+    background: #243447;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+    .task-form {
+        flex-direction: column;
+    }
+
+    .fortune-area {
+        flex-direction: column;
+    }
+
+    .fortune-box {
+        width: 100%;
+    }
+}
