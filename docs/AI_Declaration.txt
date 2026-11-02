@@ -1,0 +1,98 @@
+============================================================
+           AI USAGE DECLARATION
+============================================================
+
+Name: Fuad Mohammed Jawad
+Student ID: 23201555
+Assignment: Assignment 2: JavaScript Programming
+Date: 02/11/2026
+
+------------------------------------------------------------
+1. AI TOOLS USED (check all that apply)
+------------------------------------------------------------
+[ ] None
+[✓] ChatGPT
+[ ] GitHub Copilot
+[ ] Google Gemini
+[ ] Claude
+[ ] Cursor
+[ ] Other: ________________
+
+------------------------------------------------------------
+2. PURPOSE OF AI USE (check all that apply)
+------------------------------------------------------------
+[✓] Learning/understanding concepts
+[ ] Debugging my code
+[ ] Generating code snippets
+[✓] Writing text content
+[✓] Design/styling ideas
+[ ] Image generation
+[ ] Other: ________________
+
+------------------------------------------------------------
+3. DESCRIPTION OF AI USE
+------------------------------------------------------------
+I used ChatGPT to understand JavaScript concepts, review my implementation
+and clarify how different parts of the code work. I also used it for assistance
+with writing text content (e.g., generating 12 Fortune messages, descriptions)
+and suggestions regarding the website's layout, styling and overall design.
+
+Prompts:
+1. What is DOM and DOM manipulation and how do getElementById(), textContent and
+addEventListener() work?
+2. What is the difference between let and const in JavaScript? Explain when I should
+use each one with simple examples.
+3. Why do we use the change event instead of the click event for a checkbox?
+Explain the difference
+4. How does filter() work in JavaScript? Explain with simple examples.
+5. Explain how setInterval() and clearInterval() work in JS?
+6. I chose purple (#6c3483) for one of my Fortune Generator buttons. 
+What text color would provide good contrast and readability
+against this background?
+7. Which color of text should go well with a light green (#abebc6) background?
+Suggest me something closer to brown or bronze color.
+8. How can I use CSS Grid and Flexbox to make my application layouts responsive
+on smaller screens?
+9. Suggest me a professional color palette for a JavaScript-based website, including
+suitable header, footer, background and button colors. I do not want too flashy color
+palette.
+10. Generate 12 short, unique fortune messages for my JavaScript Fortune Generator.
+Keep them positive, motivational and suitable for display in a small box.
+11. Give me ideas for 4 different style combinations of Font color, Background
+color of a box, border color of the box, font size and family. I am using Arial
+and 18px size as default. So try to keep the font size and family not too much
+but slightly different.
+
+
+------------------------------------------------------------
+4. AI-ASSISTED SECTIONS
+------------------------------------------------------------
+List specific files/sections where AI helped significantly:
+
+File: ______js/fortune.js___________ 
+Section: Generating 12 fortune messages and ideas for 4 different
+style combinations
+
+File: ______js/stopwatch.js___________ 
+Section: Understanding timer functionality, setInterval()
+and clearInterval().
+
+File: ______js/todo.js___________ 
+Section: checkbox event handling, array filtering and DOM manipulation
+
+File: ______css/style.css___________ 
+Section: Color palette selection, text contrast and responsive
+layout using CSS Grid and Flexbox.
+
+
+------------------------------------------------------------
+5. DECLARATION
+------------------------------------------------------------
+I declare that:
+- This disclosure is complete and accurate
+- I understand all code in my submission
+- I can explain and modify my work if asked
+- I take full responsibility for my submission
+
+Signature: ______Fuad Mohammed Jawad_________________
+Date: __________02/11/2026_________________
